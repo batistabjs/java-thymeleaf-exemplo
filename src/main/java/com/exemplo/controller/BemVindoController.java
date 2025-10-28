@@ -7,10 +7,10 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
 @Controller
-public class WelcomeController {
+public class BemVindoController {
     
     @GetMapping("/")
-    public String welcome(Model model) {
+    public String bemVindo(Model model) {
         LocalDateTime now = LocalDateTime.now();
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm");
         
@@ -18,6 +18,6 @@ public class WelcomeController {
         model.addAttribute("userName", "Desenvolvedor");
         model.addAttribute("message", "Bem-vindo à sua aplicação Spring Boot com Thymeleaf!");
         
-        return "welcome";
+        return "Bem-Vindo";
     }
 }

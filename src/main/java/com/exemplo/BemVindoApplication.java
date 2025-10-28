@@ -4,8 +4,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class WelcomeApplication {
+public class BemVindoApplication {
     public static void main(String[] args) {
-        SpringApplication.run(WelcomeApplication.class, args);
+        SpringApplication.run(BemVindoApplication.class, args);
     }
 }

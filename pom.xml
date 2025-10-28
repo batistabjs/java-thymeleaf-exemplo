@@ -12,9 +12,9 @@
     </parent>
     
     <groupId>com.exemplo</groupId>
-    <artifactId>welcome-app</artifactId>
+    <artifactId>bemvindo-app</artifactId>
     <version>1.0.0</version>
-    <name>Welcome Application</name>
+    <name>Bem-Vindo Application</name>
     
     <properties>
         <java.version>17</java.version>
