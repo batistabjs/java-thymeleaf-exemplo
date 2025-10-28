@@ -18,6 +18,6 @@ public class BemVindoController {
         model.addAttribute("userName", "Desenvolvedor");
         model.addAttribute("message", "Bem-vindo à sua aplicação Spring Boot com Thymeleaf!");
         
-        return "Bem-Vindo";
+        return "bemVindo";
     }
 }
